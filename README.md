@@ -52,6 +52,11 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
+import snanmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-snanmskrange@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-snanmskrange/tags). For example,
+
+```javascript
 import snanmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-snanmskrange@v0.1.0-esm/index.mjs';
 ```
 
@@ -171,7 +176,7 @@ var v = snanmskrange.ndarray( 4, x, 2, 1, mask, 2, 1 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import snanmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-snanmskrange@v0.1.0-esm/index.mjs';
+import snanmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-snanmskrange@esm/index.mjs';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
